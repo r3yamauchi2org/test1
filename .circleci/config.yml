@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  shellcheck: circleci/shellcheck@1.2.0
+  kintone-customize: r3yamauchi/customize-uploader@0.0.2
 
 jobs:
   build:
@@ -32,4 +32,4 @@ jobs:
 workflows:
   pipeline:
     jobs:
-      - shellcheck/check
+      - kintone-customize/upload
