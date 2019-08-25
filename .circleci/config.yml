@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  kintone-customize: r3yamauchi/customize-uploader@0.0.2
+  kintone-customize: r3yamauchi/customize-uploader@0.0.3
 
 jobs:
   build:
